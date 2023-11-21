@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@navigation/*": ["./src/navigation/*"],
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@config/*": ["./src/config"],
+      "@store/*": ["./src/store"],
+      "@axios/*": ["./src/axios"],
+      "@translations/*": ["./src/translations"],
+      "@navRef/*": ["./src/navigationRef"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
