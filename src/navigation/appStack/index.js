@@ -5,7 +5,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {navigationRef} from '@navRef';
 import R from '@components/utils/R';
-import Icon from '@components/common/Icon';
+import Icon from '@components/atoms/Icon';
 
 //MEMBER STACK
 import CoachesScreen from '@pages/appContainer/CoachesScreen';

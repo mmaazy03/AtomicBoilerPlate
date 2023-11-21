@@ -3,11 +3,11 @@ import {View} from 'react-native';
 import {useGetChatsListQuery} from '@store/services';
 
 import R from '@components/utils/R';
-import Text from '@components/common/Text';
-import FixedContainer from '@components/layout/FixedContainer';
-import ScreenBoiler from '@components/layout/ScreenBoiler';
-import SearchBar from '@components/common/SearchBar';
-import FlatList from '@components/common/FlatList';
+import Text from '@components/atoms/Text';
+import FixedContainer from '@components/templates/FixedContainer';
+import ScreenBoiler from '@components/templates/ScreenBoiler';
+import SearchBar from '@components/molecules/SearchBar';
+import FlatList from '@components/organisms/FlatList';
 import {members} from '@components/constants';
 
 const CoachesScreen = props => {

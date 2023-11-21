@@ -1,7 +1,7 @@
 import ImageCropPicker from 'react-native-image-crop-picker';
 import RNFetchBlob from 'rn-fetch-blob';
 import {Platform, View} from 'react-native';
-import PopUp from '@components/common/PopUp';
+import PopUp from '@components/molecules/PopUp';
 
 export const uploadMultipleMedia = async options => {
   try {

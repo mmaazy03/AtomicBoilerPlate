@@ -1,7 +1,7 @@
-import Icon from '@components/common/Icon';
+import Icon from '@components/atoms/Icon';
 import R from './R';
 import {View} from 'react-native';
-import Text from '@components/common/Text';
+import Text from '@components/atoms/Text';
 
 const emailREX =
   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,256}))$/;

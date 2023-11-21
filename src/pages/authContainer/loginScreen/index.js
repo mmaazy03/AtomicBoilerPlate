@@ -2,16 +2,15 @@ import React, {useState, useCallback} from 'react';
 import {View, StyleSheet, BackHandler} from 'react-native';
 import {useSelector} from 'react-redux';
 import {useFocusEffect} from '@react-navigation/native';
-import Text from '@components/common/Text';
-import TextInput from '@components/common/TextInput';
-import Button from '@components/common/Button';
+import Text from '@components/atoms/Text';
+import TextInput from '@components/atoms/TextInput';
 import R from '@components/utils/R';
-import AuthBoiler from '@components/layout/AuthBoiler/index.';
-import AuthFormScrollContainer from '@components/layout/AuthFormScrollContainer';
-import AuthSwitch from '@components/common/AuthSwitch';
+import AuthBoiler from '@components/templates/AuthBoiler/index.';
+import AuthFormScrollContainer from '@components/templates/AuthFormScrollContainer';
 import FormValidation from '@components/utils/FormValidation';
-import PopUp from '@components/common/PopUp';
-import {authLogin} from '@store/auth/authSlice';
+import PopUp from '@components/molecules/PopUp';
+import Button from '@components/atoms/Button';
+import AuthSwitch from '@components/molecules/AuthSwitch';
 
 function LoginScreen(props) {
   const common = useSelector(state => state.common);
@@ -73,7 +72,7 @@ function LoginScreen(props) {
         });
         throw 'Validation Error';
       } else {
-        dispatchEvent(authLogin());
+        // dispatchEvent(authLogin());
         // PROMISE HANDLING WILL BE DONE HERE
       }
     } catch (error) {

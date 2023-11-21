@@ -9,12 +9,12 @@ import {
 import {useSelector} from 'react-redux';
 import uuid from 'react-native-uuid';
 import R from '@components/utils/R';
-import Image from '@components/common/Image';
-import Text from '@components/common/Text';
+import Image from '@components/atoms/Image';
+import Text from '@components/atoms/Text';
 import moment from 'moment';
-import FlatList from '@components/common/FlatList';
-import ChatHeader from '@components/layout/ChatHeader';
-import ChatFooter from '@components/layout/ChatFooter';
+import FlatList from '@components/organisms/FlatList';
+import ChatHeader from '@components/templates/ChatHeader';
+import ChatFooter from '@components/templates/ChatFooter';
 
 function ChatScreen(props) {
   const {navigation} = props;

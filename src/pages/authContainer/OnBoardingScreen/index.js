@@ -3,9 +3,9 @@ import {View, StyleSheet} from 'react-native';
 import {useDispatch} from 'react-redux';
 import {onBoardCompleted} from '@store/common/commonSlice';
 import R from '@components/utils/R';
-import AuthBoiler from '@components/layout/AuthBoiler/index.';
-import Text from '@components/common/Text';
-import Button from '@components/common/Button';
+import AuthBoiler from '@components/templates/AuthBoiler/index.';
+import Text from '@components/atoms/Text';
+import Button from '@components/atoms/Button';
 
 function OnBoardingScreen(props) {
   const {navigation} = props;
