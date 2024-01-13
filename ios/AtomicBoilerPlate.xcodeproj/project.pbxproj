@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AtomicBoilerPlateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AtomicBoilerPlateTests.m */; };
 		05293F1A2C8D47E8A6B5425E /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6812CE98DA374B228FCDB762 /* Poppins-Bold.ttf */; };
-		0C80B921A6F3F58F76C31292 /* libPods-AtomicBoilerPlate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AtomicBoilerPlate.a */; };
 		0D692E214FA84FC49E9EF884 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A38F1610616842228809A50C /* Ubuntu-Bold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -21,6 +20,7 @@
 		3E064F60A7D34661929EA8B9 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94F6A263184C432E87B782BA /* Poppins-ExtraBold.ttf */; };
 		4AFE57FEFB7040B1974E5E18 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0F273FE10314262917AFF5B /* Poppins-Light.ttf */; };
 		52C7C0D6676547A5938A41E0 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E7974F385F44352A3A507E7 /* Poppins-ExtraBoldItalic.ttf */; };
+		6C360599F014D6329E668D30 /* libPods-AtomicBoilerPlate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF196A2B0008840C5275879B /* libPods-AtomicBoilerPlate.a */; };
 		71914EB6464E4BBA80A1B2BE /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263745AEE5B1423CB01AA176 /* Poppins-ExtraLight.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateTests.a */; };
 		7EBE3F4566304CF3A4372C50 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10AF068DF83E4E289D9351FE /* Poppins-Regular.ttf */; };
@@ -30,11 +30,73 @@
 		92C8275863E44682AE7E3852 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90E1624E1133484A89EED6B6 /* Poppins-BoldItalic.ttf */; };
 		9449084F46CF4BE7B6B30232 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84579E21326A49A2978A5CA5 /* Poppins-Thin.ttf */; };
 		A0B03D34BD444543B7045447 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 420DCED03EAC4A4F9B668055 /* Poppins-SemiBold.ttf */; };
+		A8182FA4CA81D7C8B7502013 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateStaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F83EB5ABA01D21CB672B369 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateStaging.a */; };
 		B512B180074243F081B0A426 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0777978CA14C44B8A94B91E0 /* Ubuntu-Medium.ttf */; };
 		B527044800034A53A65D0764 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C0F0876D945A696B2198C /* Poppins-Black.ttf */; };
+		BA0258D9E5B9185453648E08 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D70E858C840273B726738BE /* libPods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.a */; };
 		C25926E2B7A14DE6AB033455 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8C50DB443424F11BF39F29D /* Ubuntu-LightItalic.ttf */; };
 		C50EB16C2B4A4F70A089E650 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C38A1E3A08C4B419C425522 /* Poppins-MediumItalic.ttf */; };
 		D23F764BB7E447638219C1CD /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3069933736324331AF320F00 /* Ubuntu-MediumItalic.ttf */; };
+		D2B214F32B52E673009D5815 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		D2B214F42B52E673009D5815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D2B214F72B52E673009D5815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D2B214F82B52E673009D5815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D2B214F92B52E673009D5815 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C0F0876D945A696B2198C /* Poppins-Black.ttf */; };
+		D2B214FA2B52E673009D5815 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5760E4909E41427F91855E1C /* Poppins-BlackItalic.ttf */; };
+		D2B214FB2B52E673009D5815 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6812CE98DA374B228FCDB762 /* Poppins-Bold.ttf */; };
+		D2B214FC2B52E673009D5815 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90E1624E1133484A89EED6B6 /* Poppins-BoldItalic.ttf */; };
+		D2B214FD2B52E673009D5815 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94F6A263184C432E87B782BA /* Poppins-ExtraBold.ttf */; };
+		D2B214FE2B52E673009D5815 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E7974F385F44352A3A507E7 /* Poppins-ExtraBoldItalic.ttf */; };
+		D2B214FF2B52E673009D5815 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263745AEE5B1423CB01AA176 /* Poppins-ExtraLight.ttf */; };
+		D2B215002B52E673009D5815 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE11E392E77F474E8FA1B8FD /* Poppins-ExtraLightItalic.ttf */; };
+		D2B215012B52E673009D5815 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286DE35682914C7FAE37D18D /* Poppins-Italic.ttf */; };
+		D2B215022B52E673009D5815 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0F273FE10314262917AFF5B /* Poppins-Light.ttf */; };
+		D2B215032B52E673009D5815 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD6B983C068844E29631DF07 /* Poppins-LightItalic.ttf */; };
+		D2B215042B52E673009D5815 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0EBA43840664DB1BBFB1646 /* Poppins-Medium.ttf */; };
+		D2B215052B52E673009D5815 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C38A1E3A08C4B419C425522 /* Poppins-MediumItalic.ttf */; };
+		D2B215062B52E673009D5815 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10AF068DF83E4E289D9351FE /* Poppins-Regular.ttf */; };
+		D2B215072B52E673009D5815 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 420DCED03EAC4A4F9B668055 /* Poppins-SemiBold.ttf */; };
+		D2B215082B52E673009D5815 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11D6E4709194F5E83C1098D /* Poppins-SemiBoldItalic.ttf */; };
+		D2B215092B52E673009D5815 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84579E21326A49A2978A5CA5 /* Poppins-Thin.ttf */; };
+		D2B2150A2B52E673009D5815 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8961A1A605841B2BD09AF06 /* Poppins-ThinItalic.ttf */; };
+		D2B2150B2B52E673009D5815 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A38F1610616842228809A50C /* Ubuntu-Bold.ttf */; };
+		D2B2150C2B52E673009D5815 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BC15435F68C47DCBB73CFEB /* Ubuntu-BoldItalic.ttf */; };
+		D2B2150D2B52E673009D5815 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482A6A2DAD514A9D88CFFB6E /* Ubuntu-Italic.ttf */; };
+		D2B2150E2B52E673009D5815 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11806111C2AA496FA38CBA21 /* Ubuntu-Light.ttf */; };
+		D2B2150F2B52E673009D5815 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8C50DB443424F11BF39F29D /* Ubuntu-LightItalic.ttf */; };
+		D2B215102B52E673009D5815 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0777978CA14C44B8A94B91E0 /* Ubuntu-Medium.ttf */; };
+		D2B215112B52E673009D5815 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3069933736324331AF320F00 /* Ubuntu-MediumItalic.ttf */; };
+		D2B215122B52E673009D5815 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DAC00A49934396B5718D0C /* Ubuntu-Regular.ttf */; };
+		D2B2151C2B52E6A3009D5815 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		D2B2151D2B52E6A3009D5815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		D2B215202B52E6A3009D5815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		D2B215212B52E6A3009D5815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		D2B215222B52E6A3009D5815 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C0F0876D945A696B2198C /* Poppins-Black.ttf */; };
+		D2B215232B52E6A3009D5815 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5760E4909E41427F91855E1C /* Poppins-BlackItalic.ttf */; };
+		D2B215242B52E6A3009D5815 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6812CE98DA374B228FCDB762 /* Poppins-Bold.ttf */; };
+		D2B215252B52E6A3009D5815 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90E1624E1133484A89EED6B6 /* Poppins-BoldItalic.ttf */; };
+		D2B215262B52E6A3009D5815 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94F6A263184C432E87B782BA /* Poppins-ExtraBold.ttf */; };
+		D2B215272B52E6A3009D5815 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E7974F385F44352A3A507E7 /* Poppins-ExtraBoldItalic.ttf */; };
+		D2B215282B52E6A3009D5815 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 263745AEE5B1423CB01AA176 /* Poppins-ExtraLight.ttf */; };
+		D2B215292B52E6A3009D5815 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE11E392E77F474E8FA1B8FD /* Poppins-ExtraLightItalic.ttf */; };
+		D2B2152A2B52E6A3009D5815 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 286DE35682914C7FAE37D18D /* Poppins-Italic.ttf */; };
+		D2B2152B2B52E6A3009D5815 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0F273FE10314262917AFF5B /* Poppins-Light.ttf */; };
+		D2B2152C2B52E6A3009D5815 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD6B983C068844E29631DF07 /* Poppins-LightItalic.ttf */; };
+		D2B2152D2B52E6A3009D5815 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0EBA43840664DB1BBFB1646 /* Poppins-Medium.ttf */; };
+		D2B2152E2B52E6A3009D5815 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C38A1E3A08C4B419C425522 /* Poppins-MediumItalic.ttf */; };
+		D2B2152F2B52E6A3009D5815 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10AF068DF83E4E289D9351FE /* Poppins-Regular.ttf */; };
+		D2B215302B52E6A3009D5815 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 420DCED03EAC4A4F9B668055 /* Poppins-SemiBold.ttf */; };
+		D2B215312B52E6A3009D5815 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11D6E4709194F5E83C1098D /* Poppins-SemiBoldItalic.ttf */; };
+		D2B215322B52E6A3009D5815 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84579E21326A49A2978A5CA5 /* Poppins-Thin.ttf */; };
+		D2B215332B52E6A3009D5815 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8961A1A605841B2BD09AF06 /* Poppins-ThinItalic.ttf */; };
+		D2B215342B52E6A3009D5815 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A38F1610616842228809A50C /* Ubuntu-Bold.ttf */; };
+		D2B215352B52E6A3009D5815 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BC15435F68C47DCBB73CFEB /* Ubuntu-BoldItalic.ttf */; };
+		D2B215362B52E6A3009D5815 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 482A6A2DAD514A9D88CFFB6E /* Ubuntu-Italic.ttf */; };
+		D2B215372B52E6A3009D5815 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11806111C2AA496FA38CBA21 /* Ubuntu-Light.ttf */; };
+		D2B215382B52E6A3009D5815 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8C50DB443424F11BF39F29D /* Ubuntu-LightItalic.ttf */; };
+		D2B215392B52E6A3009D5815 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0777978CA14C44B8A94B91E0 /* Ubuntu-Medium.ttf */; };
+		D2B2153A2B52E6A3009D5815 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3069933736324331AF320F00 /* Ubuntu-MediumItalic.ttf */; };
+		D2B2153B2B52E6A3009D5815 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3DAC00A49934396B5718D0C /* Ubuntu-Regular.ttf */; };
 		DDEF917117CF404FB443BAE2 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5760E4909E41427F91855E1C /* Poppins-BlackItalic.ttf */; };
 		E638FEEEE47A429FAA2DC7EA /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE11E392E77F474E8FA1B8FD /* Poppins-ExtraLightItalic.ttf */; };
 		F79DCFF89E254DE38C075B0A /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0EBA43840664DB1BBFB1646 /* Poppins-Medium.ttf */; };
@@ -56,46 +118,62 @@
 		00E356EE1AD99517003FC87E /* AtomicBoilerPlateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtomicBoilerPlateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AtomicBoilerPlateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtomicBoilerPlateTests.m; sourceTree = "<group>"; };
-		0777978CA14C44B8A94B91E0 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Medium.ttf"; path = "../src/assets/Fonts/Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
-		10AF068DF83E4E289D9351FE /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/Fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		11806111C2AA496FA38CBA21 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Light.ttf"; path = "../src/assets/Fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		0777978CA14C44B8A94B91E0 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Medium.ttf"; path = "../src/assets/Fonts/Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		0D1C84090F1DA01AAF8C3D63 /* libPods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AF068DF83E4E289D9351FE /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/Fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		11806111C2AA496FA38CBA21 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Light.ttf"; path = "../src/assets/Fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AtomicBoilerPlate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomicBoilerPlate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AtomicBoilerPlate/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AtomicBoilerPlate/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AtomicBoilerPlate/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AtomicBoilerPlate/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AtomicBoilerPlate/main.m; sourceTree = "<group>"; };
+		1866CE3946945EECEAB1D0C4 /* Pods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.release.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlate-Staging/Pods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.release.xcconfig"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AtomicBoilerPlate-AtomicBoilerPlateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		263745AEE5B1423CB01AA176 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/Fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
-		286DE35682914C7FAE37D18D /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../src/assets/Fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
-		3069933736324331AF320F00 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-MediumItalic.ttf"; path = "../src/assets/Fonts/Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-AtomicBoilerPlate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate.debug.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate/Pods-AtomicBoilerPlate.debug.xcconfig"; sourceTree = "<group>"; };
-		420DCED03EAC4A4F9B668055 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/Fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		482A6A2DAD514A9D88CFFB6E /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Italic.ttf"; path = "../src/assets/Fonts/Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
-		4C38A1E3A08C4B419C425522 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../src/assets/Fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-AtomicBoilerPlate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate.release.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate/Pods-AtomicBoilerPlate.release.xcconfig"; sourceTree = "<group>"; };
-		5760E4909E41427F91855E1C /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../src/assets/Fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1F83EB5ABA01D21CB672B369 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateStaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AtomicBoilerPlate-AtomicBoilerPlateStaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		263745AEE5B1423CB01AA176 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/Fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		286DE35682914C7FAE37D18D /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../src/assets/Fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		3069933736324331AF320F00 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-MediumItalic.ttf"; path = "../src/assets/Fonts/Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		420DCED03EAC4A4F9B668055 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/Fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		43F2FBBF653DBB46804C0E0A /* Pods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.debug.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlate-Staging/Pods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.debug.xcconfig"; sourceTree = "<group>"; };
+		482A6A2DAD514A9D88CFFB6E /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Italic.ttf"; path = "../src/assets/Fonts/Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		4C38A1E3A08C4B419C425522 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../src/assets/Fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4D70E858C840273B726738BE /* libPods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1ED08A570822B8D62277F2 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.debug.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.debug.xcconfig"; sourceTree = "<group>"; };
+		5760E4909E41427F91855E1C /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../src/assets/Fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate-AtomicBoilerPlateTests.debug.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateTests/Pods-AtomicBoilerPlate-AtomicBoilerPlateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D7C0F0876D945A696B2198C /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/assets/Fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-AtomicBoilerPlate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AtomicBoilerPlate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6812CE98DA374B228FCDB762 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/Fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		7E7974F385F44352A3A507E7 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../src/assets/Fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5D7C0F0876D945A696B2198C /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/assets/Fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		65735ECFE25E815F8A144C2A /* Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging.release.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging.release.xcconfig"; sourceTree = "<group>"; };
+		6812CE98DA374B228FCDB762 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/Fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		7E7974F385F44352A3A507E7 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../src/assets/Fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AtomicBoilerPlate/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84579E21326A49A2978A5CA5 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../src/assets/Fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		84579E21326A49A2978A5CA5 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../src/assets/Fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AtomicBoilerPlate-AtomicBoilerPlateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate-AtomicBoilerPlateTests.release.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateTests/Pods-AtomicBoilerPlate-AtomicBoilerPlateTests.release.xcconfig"; sourceTree = "<group>"; };
-		8BC15435F68C47DCBB73CFEB /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-BoldItalic.ttf"; path = "../src/assets/Fonts/Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
-		90E1624E1133484A89EED6B6 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../src/assets/Fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
-		94F6A263184C432E87B782BA /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/Fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
-		A11D6E4709194F5E83C1098D /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../src/assets/Fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		A38F1610616842228809A50C /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Bold.ttf"; path = "../src/assets/Fonts/Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
-		C8C50DB443424F11BF39F29D /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-LightItalic.ttf"; path = "../src/assets/Fonts/Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
-		D3DAC00A49934396B5718D0C /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Regular.ttf"; path = "../src/assets/Fonts/Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
-		E0F273FE10314262917AFF5B /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/Fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
-		E8961A1A605841B2BD09AF06 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../src/assets/Fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		8BC15435F68C47DCBB73CFEB /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-BoldItalic.ttf"; path = "../src/assets/Fonts/Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8DC2A7A4C8BE3734CD165D73 /* Pods-AtomicBoilerPlate-AtomicBoilerPlate-Development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate-AtomicBoilerPlate-Development.release.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlate-Development/Pods-AtomicBoilerPlate-AtomicBoilerPlate-Development.release.xcconfig"; sourceTree = "<group>"; };
+		90E1624E1133484A89EED6B6 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../src/assets/Fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		94F6A263184C432E87B782BA /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/Fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		95CCBDEBC812617099971C9A /* Pods-AtomicBoilerPlate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate.release.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate/Pods-AtomicBoilerPlate.release.xcconfig"; sourceTree = "<group>"; };
+		A11D6E4709194F5E83C1098D /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../src/assets/Fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A38F1610616842228809A50C /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Bold.ttf"; path = "../src/assets/Fonts/Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		A4FA16E7115DE08B02E559B8 /* Pods-AtomicBoilerPlate-AtomicBoilerPlate-Development.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate-AtomicBoilerPlate-Development.debug.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlate-Development/Pods-AtomicBoilerPlate-AtomicBoilerPlate-Development.debug.xcconfig"; sourceTree = "<group>"; };
+		C8C50DB443424F11BF39F29D /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-LightItalic.ttf"; path = "../src/assets/Fonts/Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		D0C027677387BD1364B18F22 /* libPods-AtomicBoilerPlate-AtomicBoilerPlate-Development.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AtomicBoilerPlate-AtomicBoilerPlate-Development.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B215172B52E673009D5815 /* AtomicBoilerPlateStaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomicBoilerPlateStaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B215182B52E673009D5815 /* AtomicBoilerPlate Staging-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AtomicBoilerPlate Staging-Info.plist"; path = "/Users/muhammadmaaz/Documents/Projects/AtomicBoilerPlate/ios/AtomicBoilerPlate Staging-Info.plist"; sourceTree = "<absolute>"; };
+		D2B215402B52E6A3009D5815 /* AtomicBoilerPlateDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomicBoilerPlateDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B215412B52E6A3009D5815 /* AtomicBoilerPlate Development-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AtomicBoilerPlate Development-Info.plist"; path = "/Users/muhammadmaaz/Documents/Projects/AtomicBoilerPlate/ios/AtomicBoilerPlate Development-Info.plist"; sourceTree = "<absolute>"; };
+		D3DAC00A49934396B5718D0C /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ubuntu-Regular.ttf"; path = "../src/assets/Fonts/Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		E0F273FE10314262917AFF5B /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/Fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		E8961A1A605841B2BD09AF06 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../src/assets/Fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F0EBA43840664DB1BBFB1646 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/Fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		FD6B983C068844E29631DF07 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../src/assets/Fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
-		FE11E392E77F474E8FA1B8FD /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../src/assets/Fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		EF196A2B0008840C5275879B /* libPods-AtomicBoilerPlate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AtomicBoilerPlate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EBA43840664DB1BBFB1646 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/Fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		F5905722C0A7CB24D229FD4C /* Pods-AtomicBoilerPlate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate.debug.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate/Pods-AtomicBoilerPlate.debug.xcconfig"; sourceTree = "<group>"; };
+		F8C622ECF8BB34DA1078C926 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging.debug.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging.debug.xcconfig"; sourceTree = "<group>"; };
+		FD6B983C068844E29631DF07 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../src/assets/Fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		FE11E392E77F474E8FA1B8FD /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../src/assets/Fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FE92BD5411FB721F61F00E03 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.release.xcconfig"; path = "Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +189,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-AtomicBoilerPlate.a in Frameworks */,
+				6C360599F014D6329E668D30 /* libPods-AtomicBoilerPlate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B214F52B52E673009D5815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8182FA4CA81D7C8B7502013 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateStaging.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B2151E2B52E6A3009D5815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0258D9E5B9185453648E08 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +246,12 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-AtomicBoilerPlate.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateTests.a */,
+				D0C027677387BD1364B18F22 /* libPods-AtomicBoilerPlate-AtomicBoilerPlate-Development.a */,
+				0D1C84090F1DA01AAF8C3D63 /* libPods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.a */,
+				4D70E858C840273B726738BE /* libPods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.a */,
+				1F83EB5ABA01D21CB672B369 /* libPods-AtomicBoilerPlate-AtomicBoilerPlateStaging.a */,
+				EF196A2B0008840C5275879B /* libPods-AtomicBoilerPlate.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,7 +287,6 @@
 				D3DAC00A49934396B5718D0C /* Ubuntu-Regular.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -209,6 +306,8 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
 				517000C958C24A2197BDADDC /* Resources */,
+				D2B215182B52E673009D5815 /* AtomicBoilerPlate Staging-Info.plist */,
+				D2B215412B52E6A3009D5815 /* AtomicBoilerPlate Development-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -220,6 +319,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* AtomicBoilerPlate.app */,
 				00E356EE1AD99517003FC87E /* AtomicBoilerPlateTests.xctest */,
+				D2B215172B52E673009D5815 /* AtomicBoilerPlateStaging.app */,
+				D2B215402B52E6A3009D5815 /* AtomicBoilerPlateDevelopment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,10 +328,18 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-AtomicBoilerPlate.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-AtomicBoilerPlate.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-AtomicBoilerPlate-AtomicBoilerPlateTests.release.xcconfig */,
+				A4FA16E7115DE08B02E559B8 /* Pods-AtomicBoilerPlate-AtomicBoilerPlate-Development.debug.xcconfig */,
+				8DC2A7A4C8BE3734CD165D73 /* Pods-AtomicBoilerPlate-AtomicBoilerPlate-Development.release.xcconfig */,
+				43F2FBBF653DBB46804C0E0A /* Pods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.debug.xcconfig */,
+				1866CE3946945EECEAB1D0C4 /* Pods-AtomicBoilerPlate-AtomicBoilerPlate-Staging.release.xcconfig */,
+				4F1ED08A570822B8D62277F2 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.debug.xcconfig */,
+				FE92BD5411FB721F61F00E03 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.release.xcconfig */,
+				F8C622ECF8BB34DA1078C926 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging.debug.xcconfig */,
+				65735ECFE25E815F8A144C2A /* Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging.release.xcconfig */,
+				F5905722C0A7CB24D229FD4C /* Pods-AtomicBoilerPlate.debug.xcconfig */,
+				95CCBDEBC812617099971C9A /* Pods-AtomicBoilerPlate.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -263,14 +372,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AtomicBoilerPlate" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				BF89C44E3370A9D05F1C64B0 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				A3835AE54C786E396A16D225 /* [CP] Embed Pods Frameworks */,
+				4CB48E3409A95303DBA39AF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +388,50 @@
 			name = AtomicBoilerPlate;
 			productName = AtomicBoilerPlate;
 			productReference = 13B07F961A680F5B00A75B9A /* AtomicBoilerPlate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2B214F02B52E673009D5815 /* AtomicBoilerPlateStaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B215142B52E673009D5815 /* Build configuration list for PBXNativeTarget "AtomicBoilerPlateStaging" */;
+			buildPhases = (
+				E475136F4AE00E967526C452 /* [CP] Check Pods Manifest.lock */,
+				D2B214F12B52E673009D5815 /* Start Packager */,
+				D2B214F22B52E673009D5815 /* Sources */,
+				D2B214F52B52E673009D5815 /* Frameworks */,
+				D2B214F62B52E673009D5815 /* Resources */,
+				D2B215132B52E673009D5815 /* Bundle React Native code and images */,
+				0E974A6D0E85FE5D5A679E8D /* [CP] Embed Pods Frameworks */,
+				DE8E8BF50FA22D9974E8258C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtomicBoilerPlateStaging;
+			productName = AtomicBoilerPlate;
+			productReference = D2B215172B52E673009D5815 /* AtomicBoilerPlateStaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2B215192B52E6A3009D5815 /* AtomicBoilerPlateDevelopment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B2153D2B52E6A3009D5815 /* Build configuration list for PBXNativeTarget "AtomicBoilerPlateDevelopment" */;
+			buildPhases = (
+				68A1C89D469AE586159E9326 /* [CP] Check Pods Manifest.lock */,
+				D2B2151A2B52E6A3009D5815 /* Start Packager */,
+				D2B2151B2B52E6A3009D5815 /* Sources */,
+				D2B2151E2B52E6A3009D5815 /* Frameworks */,
+				D2B2151F2B52E6A3009D5815 /* Resources */,
+				D2B2153C2B52E6A3009D5815 /* Bundle React Native code and images */,
+				19F913B3E0B8EC7DB36D6541 /* [CP] Embed Pods Frameworks */,
+				E1A75363A62977FD6304489F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtomicBoilerPlateDevelopment;
+			productName = AtomicBoilerPlate;
+			productReference = D2B215402B52E6A3009D5815 /* AtomicBoilerPlateDevelopment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -313,6 +466,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* AtomicBoilerPlate */,
 				00E356ED1AD99517003FC87E /* AtomicBoilerPlateTests */,
+				D2B214F02B52E673009D5815 /* AtomicBoilerPlateStaging */,
+				D2B215192B52E6A3009D5815 /* AtomicBoilerPlateDevelopment */,
 			);
 		};
 /* End PBXProject section */
@@ -360,6 +515,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2B214F62B52E673009D5815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B214F72B52E673009D5815 /* LaunchScreen.storyboard in Resources */,
+				D2B214F82B52E673009D5815 /* Images.xcassets in Resources */,
+				D2B214F92B52E673009D5815 /* Poppins-Black.ttf in Resources */,
+				D2B214FA2B52E673009D5815 /* Poppins-BlackItalic.ttf in Resources */,
+				D2B214FB2B52E673009D5815 /* Poppins-Bold.ttf in Resources */,
+				D2B214FC2B52E673009D5815 /* Poppins-BoldItalic.ttf in Resources */,
+				D2B214FD2B52E673009D5815 /* Poppins-ExtraBold.ttf in Resources */,
+				D2B214FE2B52E673009D5815 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				D2B214FF2B52E673009D5815 /* Poppins-ExtraLight.ttf in Resources */,
+				D2B215002B52E673009D5815 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				D2B215012B52E673009D5815 /* Poppins-Italic.ttf in Resources */,
+				D2B215022B52E673009D5815 /* Poppins-Light.ttf in Resources */,
+				D2B215032B52E673009D5815 /* Poppins-LightItalic.ttf in Resources */,
+				D2B215042B52E673009D5815 /* Poppins-Medium.ttf in Resources */,
+				D2B215052B52E673009D5815 /* Poppins-MediumItalic.ttf in Resources */,
+				D2B215062B52E673009D5815 /* Poppins-Regular.ttf in Resources */,
+				D2B215072B52E673009D5815 /* Poppins-SemiBold.ttf in Resources */,
+				D2B215082B52E673009D5815 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				D2B215092B52E673009D5815 /* Poppins-Thin.ttf in Resources */,
+				D2B2150A2B52E673009D5815 /* Poppins-ThinItalic.ttf in Resources */,
+				D2B2150B2B52E673009D5815 /* Ubuntu-Bold.ttf in Resources */,
+				D2B2150C2B52E673009D5815 /* Ubuntu-BoldItalic.ttf in Resources */,
+				D2B2150D2B52E673009D5815 /* Ubuntu-Italic.ttf in Resources */,
+				D2B2150E2B52E673009D5815 /* Ubuntu-Light.ttf in Resources */,
+				D2B2150F2B52E673009D5815 /* Ubuntu-LightItalic.ttf in Resources */,
+				D2B215102B52E673009D5815 /* Ubuntu-Medium.ttf in Resources */,
+				D2B215112B52E673009D5815 /* Ubuntu-MediumItalic.ttf in Resources */,
+				D2B215122B52E673009D5815 /* Ubuntu-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B2151F2B52E6A3009D5815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B215202B52E6A3009D5815 /* LaunchScreen.storyboard in Resources */,
+				D2B215212B52E6A3009D5815 /* Images.xcassets in Resources */,
+				D2B215222B52E6A3009D5815 /* Poppins-Black.ttf in Resources */,
+				D2B215232B52E6A3009D5815 /* Poppins-BlackItalic.ttf in Resources */,
+				D2B215242B52E6A3009D5815 /* Poppins-Bold.ttf in Resources */,
+				D2B215252B52E6A3009D5815 /* Poppins-BoldItalic.ttf in Resources */,
+				D2B215262B52E6A3009D5815 /* Poppins-ExtraBold.ttf in Resources */,
+				D2B215272B52E6A3009D5815 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				D2B215282B52E6A3009D5815 /* Poppins-ExtraLight.ttf in Resources */,
+				D2B215292B52E6A3009D5815 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				D2B2152A2B52E6A3009D5815 /* Poppins-Italic.ttf in Resources */,
+				D2B2152B2B52E6A3009D5815 /* Poppins-Light.ttf in Resources */,
+				D2B2152C2B52E6A3009D5815 /* Poppins-LightItalic.ttf in Resources */,
+				D2B2152D2B52E6A3009D5815 /* Poppins-Medium.ttf in Resources */,
+				D2B2152E2B52E6A3009D5815 /* Poppins-MediumItalic.ttf in Resources */,
+				D2B2152F2B52E6A3009D5815 /* Poppins-Regular.ttf in Resources */,
+				D2B215302B52E6A3009D5815 /* Poppins-SemiBold.ttf in Resources */,
+				D2B215312B52E6A3009D5815 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				D2B215322B52E6A3009D5815 /* Poppins-Thin.ttf in Resources */,
+				D2B215332B52E6A3009D5815 /* Poppins-ThinItalic.ttf in Resources */,
+				D2B215342B52E6A3009D5815 /* Ubuntu-Bold.ttf in Resources */,
+				D2B215352B52E6A3009D5815 /* Ubuntu-BoldItalic.ttf in Resources */,
+				D2B215362B52E6A3009D5815 /* Ubuntu-Italic.ttf in Resources */,
+				D2B215372B52E6A3009D5815 /* Ubuntu-Light.ttf in Resources */,
+				D2B215382B52E6A3009D5815 /* Ubuntu-LightItalic.ttf in Resources */,
+				D2B215392B52E6A3009D5815 /* Ubuntu-Medium.ttf in Resources */,
+				D2B2153A2B52E6A3009D5815 /* Ubuntu-MediumItalic.ttf in Resources */,
+				D2B2153B2B52E6A3009D5815 /* Ubuntu-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -379,7 +604,80 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		0E974A6D0E85FE5D5A679E8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19F913B3E0B8EC7DB36D6541 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CB48E3409A95303DBA39AF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate/Pods-AtomicBoilerPlate-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate/Pods-AtomicBoilerPlate-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate/Pods-AtomicBoilerPlate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A1C89D469AE586159E9326 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3835AE54C786E396A16D225 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,7 +716,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		BF89C44E3370A9D05F1C64B0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,21 +755,130 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateTests/Pods-AtomicBoilerPlate-AtomicBoilerPlateTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		D2B214F12B52E673009D5815 /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate/Pods-AtomicBoilerPlate-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+			);
+			name = "Start Packager";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate/Pods-AtomicBoilerPlate-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate/Pods-AtomicBoilerPlate-resources.sh\"\n";
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B215132B52E673009D5815 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		D2B2151A2B52E6A3009D5815 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B2153C2B52E6A3009D5815 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		DE8E8BF50FA22D9974E8258C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1A75363A62977FD6304489F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment/Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E475136F4AE00E967526C452 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -527,6 +934,24 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B214F22B52E673009D5815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B214F32B52E673009D5815 /* AppDelegate.mm in Sources */,
+				D2B214F42B52E673009D5815 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B2151B2B52E6A3009D5815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B2151C2B52E6A3009D5815 /* AppDelegate.mm in Sources */,
+				D2B2151D2B52E6A3009D5815 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,7 +1019,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-AtomicBoilerPlate.debug.xcconfig */;
+			baseConfigurationReference = F5905722C0A7CB24D229FD4C /* Pods-AtomicBoilerPlate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -621,7 +1046,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-AtomicBoilerPlate.release.xcconfig */;
+			baseConfigurationReference = 95CCBDEBC812617099971C9A /* Pods-AtomicBoilerPlate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -685,6 +1110,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -711,6 +1137,11 @@
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -753,6 +1184,10 @@
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -777,9 +1212,118 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2B215152B52E673009D5815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C622ECF8BB34DA1078C926 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "AtomicBoilerPlate Staging-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D2B215162B52E673009D5815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65735ECFE25E815F8A144C2A /* Pods-AtomicBoilerPlate-AtomicBoilerPlateStaging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "AtomicBoilerPlate Staging-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		D2B2153E2B52E6A3009D5815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1ED08A570822B8D62277F2 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "AtomicBoilerPlate Development-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D2B2153F2B52E6A3009D5815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE92BD5411FB721F61F00E03 /* Pods-AtomicBoilerPlate-AtomicBoilerPlateDevelopment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "AtomicBoilerPlate Development-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -809,6 +1353,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B215142B52E673009D5815 /* Build configuration list for PBXNativeTarget "AtomicBoilerPlateStaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B215152B52E673009D5815 /* Debug */,
+				D2B215162B52E673009D5815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B2153D2B52E6A3009D5815 /* Build configuration list for PBXNativeTarget "AtomicBoilerPlateDevelopment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B2153E2B52E6A3009D5815 /* Debug */,
+				D2B2153F2B52E6A3009D5815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
