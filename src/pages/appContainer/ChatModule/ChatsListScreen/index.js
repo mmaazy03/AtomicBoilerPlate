@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {View} from 'react-native';
 import {useTranslation} from 'react-i18next';
+import Config from 'react-native-config';
 import R from '@components/utils/R';
 import SearchBar from '@components/molecules/SearchBar';
 import FlatList from '@components/organisms/FlatList';
@@ -13,6 +14,7 @@ import {useGetChatsListQuery, useChatSeenMutation} from '@store/services';
 import debounce from '@components/utils/CustomHooks/debounce';
 
 const ChatsListScreen = props => {
+  console.log('Config', Config);
   const {navigation} = props;
   const {t} = useTranslation();
   const [text, setText] = useState('');
