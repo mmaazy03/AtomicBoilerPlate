@@ -12,15 +12,24 @@ import MessagesCard from '@components/templates/cards/MessagesCard';
 import {chatsList} from '@components/constants';
 import {useGetChatsListQuery, useChatSeenMutation} from '@store/services';
 import debounce from '@components/utils/CustomHooks/debounce';
+import {useTheme} from '@react-navigation/native';
+import {useDispatch, useSelector} from 'react-redux';
+import {switchTheme} from '@store/common/commonSlice';
 
 const ChatsListScreen = props => {
   console.log('Config', Config);
   const {navigation} = props;
   const {t} = useTranslation();
+  const dispatch = useDispatch();
+  const {colors} = useTheme();
+  const common = useSelector(state => state.common);
+
   const [text, setText] = useState('');
   const [page, setPage] = useState(1);
   const [chats, setChats] = useState(chatsList);
   const [deleted, setDeleted] = useState(undefined);
+
+  console.log('colors------', common.defaultTheme);
 
   const {data} = useGetChatsListQuery({
     page: page,
@@ -53,7 +62,9 @@ const ChatsListScreen = props => {
     );
   };
 
-  const onPress = data => {};
+  const onPress = data => {
+    dispatch(switchTheme(common.defaultTheme === 'light' ? 'dark' : 'light'));
+  };
 
   return (
     <ScreenBoiler mainHeading={t('chat')} isBack={false}>

@@ -1,12 +1,16 @@
 import React from 'react';
 import {View, TouchableNativeFeedback, StyleSheet} from 'react-native';
+import {useTheme} from '@react-navigation/native';
 import moment from 'moment';
 import R from '@components/utils/R';
 import Image from '@components/atoms/Image';
 import Text from '@components/atoms/Text';
 
 function MessagesCard(props) {
+  const {colors} = useTheme();
   const {item, index, onPress, data} = props;
+
+  const generalStyling = styles(colors);
 
   return (
     <TouchableNativeFeedback
@@ -29,10 +33,10 @@ function MessagesCard(props) {
           ]}>
           <Image
             customImage={R.image.userPin()}
-            containerStyles={styles.profileImage}
+            containerStyles={generalStyling.profileImage}
           />
 
-          <View style={styles.chatText}>
+          <View style={generalStyling.chatText}>
             <Text
               variant={'body2'}
               font={'PoppinsSemiBold'}
@@ -71,25 +75,28 @@ function MessagesCard(props) {
 }
 export default MessagesCard;
 
-const styles = StyleSheet.create({
-  cardLayout: {
-    width: '100%',
-    borderRadius: R.unit.scale(4),
-    backgroundColor: R.color.white,
-  },
-  profileImage: {
-    width: R.unit.scale(55),
-    height: R.unit.scale(55),
-    borderRadius: R.unit.scale(55),
-  },
-  chatText: {
-    marginLeft: R.unit.scale(5),
-    flex: 1,
-  },
-  divider: {
-    width: '100%',
-    height: R.unit.scale(1),
-    backgroundColor: R.color.inputFieldBordercolor,
-    marginVertical: R.unit.scale(0),
-  },
-});
+const styles = colors => {
+  console.log(colors, 'colors');
+  return StyleSheet.create({
+    cardLayout: {
+      width: '100%',
+      borderRadius: R.unit.scale(4),
+    },
+    profileImage: {
+      width: R.unit.scale(55),
+      height: R.unit.scale(55),
+      borderRadius: R.unit.scale(55),
+    },
+    chatText: {
+      marginLeft: R.unit.scale(5),
+      flex: 1,
+      backgroundColor: colors.background,
+    },
+    divider: {
+      width: '100%',
+      height: R.unit.scale(1),
+      backgroundColor: R.color.inputFieldBordercolor,
+      marginVertical: R.unit.scale(0),
+    },
+  });
+};

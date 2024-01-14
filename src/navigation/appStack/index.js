@@ -1,6 +1,10 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import {NavigationContainer} from '@react-navigation/native';
+import {
+  NavigationContainer,
+  DefaultTheme,
+  DarkTheme,
+} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {navigationRef} from '@navRef';
@@ -13,6 +17,7 @@ import CoachesScreen from '@pages/appContainer/CoachesScreen';
 //CHATS STACK
 import ChatsListScreen from '@pages/appContainer/ChatModule/ChatsListScreen';
 import ChatScreen from '@pages/appContainer/ChatModule/ChatScreen';
+import {useSelector} from 'react-redux';
 
 const AppStack = ({navigation}) => {
   const Stack = createNativeStackNavigator();
@@ -23,10 +28,33 @@ const AppStack = ({navigation}) => {
     animation: 'slide_from_right',
     animationDuration: 200,
   };
+
   //COMPANY TAB
   const AppTabNvigation = () => {
+    const common = useSelector(state => state.common);
+
+    const MyThemeLight = {
+      ...DefaultTheme,
+      colors: {
+        ...DefaultTheme.colors,
+        background: '#b91c22',
+        primary: 'rgb(255, 45, 85)',
+      },
+    };
+
+    const MyThemeDark = {
+      ...DarkTheme,
+      colors: {
+        ...DarkTheme.colors,
+        background: 'green',
+        primary: 'rgb(255, 45, 85)',
+      },
+    };
+
     return (
-      <NavigationContainer ref={navigationRef}>
+      <NavigationContainer
+        ref={navigationRef}
+        theme={common.defaultTheme === 'dark' ? MyThemeDark : MyThemeLight}>
         <Tab.Navigator
           initialRouteName={'HomeTab'}
           screenOptions={{

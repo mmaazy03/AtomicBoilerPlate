@@ -5,6 +5,7 @@ const initialState = {
   isOnBoard: false,
   inOnCoachSelected: false,
   selectedLanguage: 'en',
+  defaultTheme: 'light',
 };
 
 const commonSlice = createSlice({
@@ -17,6 +18,9 @@ const commonSlice = createSlice({
     clearCommon: (state, {payload}) => {
       state.inOnCoachSelected = false;
     },
+    switchTheme: (state, {payload}) => {
+      state.defaultTheme = payload;
+    },
   },
   extraReducers: builder => {
     builder.addMatcher(
@@ -28,6 +32,6 @@ const commonSlice = createSlice({
   },
 });
 
-export const {onBoardCompleted, clearCommon} = commonSlice.actions;
+export const {onBoardCompleted, clearCommon, switchTheme} = commonSlice.actions;
 
 export default commonSlice.reducer;
