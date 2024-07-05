@@ -15,9 +15,13 @@ import debounce from '@components/utils/CustomHooks/debounce';
 import {useTheme} from '@react-navigation/native';
 import {useDispatch, useSelector} from 'react-redux';
 import {switchTheme} from '@store/common/commonSlice';
+import {TimerContext} from '../../../../../TimerContext';
+import Text from '@components/atoms/Text';
+import useTimer from '../../../../../useTimer';
+import Button from '@components/atoms/Button';
 
 const ChatsListScreen = props => {
-  console.log('Config', Config);
+  // console.log('Config', Config);
   const {navigation} = props;
   const {t} = useTranslation();
   const dispatch = useDispatch();
@@ -29,7 +33,11 @@ const ChatsListScreen = props => {
   const [chats, setChats] = useState(chatsList);
   const [deleted, setDeleted] = useState(undefined);
 
-  console.log('colors------', common.defaultTheme);
+  const {seconds, startTimer, stopTimer, resetTimer} =
+    React.useContext(TimerContext);
+  // const {seconds, start, stop, isRunning} = useTimer();
+
+  // console.log('colors------', common.defaultTheme);
 
   const {data} = useGetChatsListQuery({
     page: page,
@@ -66,6 +74,18 @@ const ChatsListScreen = props => {
     dispatch(switchTheme(common.defaultTheme === 'light' ? 'dark' : 'light'));
   };
 
+  const startTimerC = () => {
+    startTimer();
+  };
+
+  const endTimeC = () => {
+    stopTimer();
+  };
+
+  // const stopTimerRedux = () => {
+  //   stop();
+  // };
+
   return (
     <ScreenBoiler mainHeading={t('chat')} isBack={false}>
       <Stagger onPress={onPress} />
@@ -78,6 +98,38 @@ const ChatsListScreen = props => {
             }}
             value={text}
             containerStyles={{paddingHorizontal: R.unit.scale(10)}}
+          />
+
+          <Text color={'black'} variant={'h2'}>
+            {' '}
+            TIMER : {seconds}
+          </Text>
+
+          <Button
+            value="Resume Timer"
+            bgColor={R.color.gray3}
+            width={'45%'}
+            size={'bsm'}
+            color={R.color.white}
+            gutterBottom={30}
+            rippleColor={R.color.gray2}
+            loaderColor={R.color.white}
+            btnWrapperStyles={{alignSelf: 'flex-start'}}
+            onPress={startTimerC}
+            // onPress={stopTimerRedux}
+          />
+          <Button
+            value="Pause Timer"
+            bgColor={R.color.gray3}
+            width={'45%'}
+            size={'bsm'}
+            color={R.color.white}
+            gutterBottom={30}
+            rippleColor={R.color.gray2}
+            loaderColor={R.color.white}
+            btnWrapperStyles={{alignSelf: 'flex-start'}}
+            onPress={endTimeC}
+            // onPress={stopTimerRedux}
           />
 
           <FlatList

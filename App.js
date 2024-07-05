@@ -22,6 +22,7 @@ import {Provider} from 'react-redux';
 import {toastConfig} from '@components/utils/Validators';
 import i18n from './src/translations/i18n';
 import LocalNotification from '@components/utils/Notification';
+import {TimerProvider} from './TimerContext';
 
 function App() {
   const config = {
@@ -107,7 +108,10 @@ function App() {
 
     return (
       <>
-        <AppNavigation />
+        <TimerProvider>
+          <AppNavigation />
+        </TimerProvider>
+
         <Toast config={toastConfig} />
       </>
     );

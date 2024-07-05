@@ -15,6 +15,7 @@ import authReducer from './auth/authSlice';
 import userReducer from './user/userSlice';
 import socketReducer from './socket/socketSlice';
 import commonReducer from './common/commonSlice';
+import timerReducer from './timer/timerSlice';
 
 //SERVICES
 import {serviceApi} from './services';
@@ -25,13 +26,14 @@ const rootReducer = combineReducers({
   user: userReducer,
   socket: socketReducer,
   common: commonReducer,
+  timer: timerReducer,
   [serviceApi.reducerPath]: serviceApi.reducer,
 });
 
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
-  whitelist: ['auth', 'user', 'socket', 'common'],
+  whitelist: ['auth', 'user', 'socket', 'common', 'timer'],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

@@ -22,6 +22,7 @@ function ChatScreen(props) {
   const flatListRef = useRef();
   const user = useSelector(state => state.user.user);
   const socket = useSelector(state => state.socket.socketRef);
+  console.log('CHAT SCREEN');
   // const chatType = item?.type;
   const userId = '456';
   // const roomId = item?._id;

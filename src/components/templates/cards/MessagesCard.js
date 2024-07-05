@@ -76,7 +76,6 @@ function MessagesCard(props) {
 export default MessagesCard;
 
 const styles = colors => {
-  console.log(colors, 'colors');
   return StyleSheet.create({
     cardLayout: {
       width: '100%',
